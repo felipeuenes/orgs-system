@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StatusBar, SafeAreaView ,Text, View } from 'react-native';
+import { StatusBar, SafeAreaView ,Text } from 'react-native';
 import { Cesta } from './src/telas/cesta';
 
 
