@@ -3,6 +3,7 @@ import { Image, StyleSheet, Dimensions, Text, View } from "react-native";
 import topo from "../../assets/topo.png"
 import logo from '../../assets/logo.png'
 
+
 const width = Dimensions.get("screen").width;
 
 
@@ -31,7 +32,7 @@ const estilos = StyleSheet.create({
     topo: {
         width: '100%',
         height: 578 / 786 * width,
-
+        
     },
 
     titulo: {
@@ -53,7 +54,8 @@ const estilos = StyleSheet.create({
         color: "#464646",
         fontSize: 26,
         lineHeight: 42,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontFamily: "MontserratBold"
     },
     fazenda: {
         flexDirection: 'row',
@@ -70,7 +72,7 @@ const estilos = StyleSheet.create({
         fontSize: 16,
         lineHeight: 16,
         marginLeft: 12,
-
+        fontFamily: "MontserratRegular",
     },
     descricao: {
         color: '#a3a3a3',
