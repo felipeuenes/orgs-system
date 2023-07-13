@@ -22,7 +22,7 @@ export function Cesta(){
             <Texto style={estilos.nomeFazenda}>Jenny Jack Farm</Texto>
 
             </View>
-            <Texto >Uma cesta com alimentos selecionados cuidadosamentes com alimentos para cozinha</Texto>
+            <Texto style={estilos.descricao}>Uma cesta com alimentos selecionados cuidadosamentes com alimentos para cozinha</Texto>
             <Texto style={estilos.preco}>R$ 40,00</Texto>
         </View>
         </>
