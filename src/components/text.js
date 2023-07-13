@@ -14,7 +14,8 @@ export default function Texto({children, style}){
 
 const estilos = StyleSheet.create({
     texto: {
-        fontFamily: "MontserratRegular"
+        fontFamily: "MontserratRegular",
+        fontWeight: 'normal'
     },
     textoNegrito: {
         fontFamily: "MontserratBold",
