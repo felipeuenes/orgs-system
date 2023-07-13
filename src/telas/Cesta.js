@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, StyleSheet, Dimensions, Text, View } from "react-native";
 import topo from "../../assets/topo.png"
-import logo from '../../assets/logo.png'
+
 
 import Texto from "../components/text";
 
@@ -68,6 +68,7 @@ const estilos = StyleSheet.create({
         width: 32,
         height: 32,
     },
+
     nomeFazenda: {
         fontSize: 16,
         lineHeight: 16,
