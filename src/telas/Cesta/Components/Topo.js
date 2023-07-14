@@ -34,7 +34,7 @@ const estilos = StyleSheet.create({
         lineHeight: 16,
         color: "white",
         fontWeight: 'bold',
-        paddingTop: 50
+        paddingTop: 70
         
     },
 })
