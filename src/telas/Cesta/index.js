@@ -9,15 +9,15 @@ import Detalhes from "./Components/Detalhes";
 
 
 
-export function Cesta({ }){
+export function Cesta({ topo, detalhes }){
 
     return(
         <>
 
-        <Topo />
+        <Topo {...topo}/>
         
         <View style={estilos.cesta}>
-            <Detalhes />
+            <Detalhes {...detalhes} />
         </View>
         </>
     )

@@ -5,7 +5,7 @@ import { SafeAreaView, View } from 'react-native';
 import { Cesta } from './src/telas/Cesta';
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
 
-// import mocks from './src/mocks/Cesta'
+import mock from './src/mocks/Cesta';
 
 
 
@@ -28,7 +28,7 @@ export default function App() {
     <SafeAreaView>
       <StatusBar/>
 
-        <Cesta />
+        <Cesta {...mock}/>
      
     
     </SafeAreaView>
