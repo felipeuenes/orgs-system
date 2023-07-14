@@ -1,11 +1,11 @@
 import React from "react";
-import { Image, StyleSheet, View } from "react-native";
-
-import logo from '../../../assets/logo.png'
+import { StyleSheet, View } from "react-native";
 
 
-import Texto from "../../components/text";
+
+
 import Topo from "./Components/Topo";
+import Detalhes from "./Components/Detalhes";
 
 
 
@@ -17,7 +17,7 @@ export function Cesta({ }){
         <Topo />
         
         <View style={estilos.cesta}>
-            
+            <Detalhes />
         </View>
         </>
     )

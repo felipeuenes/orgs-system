@@ -4,7 +4,7 @@ import { View, Image, StyleSheet } from "react-native";
 import Texto from '../../../components/text'
 import logo from '../../../../assets/logo.png'
 
-export default function detalhes(){
+export default function Detalhes(){
     return <>
          <Texto style={estilos.nome}>Cestas de verduras</Texto>
             <View style={estilos.fazenda}>
