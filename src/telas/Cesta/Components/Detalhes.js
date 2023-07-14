@@ -2,13 +2,13 @@ import React from "react";
 import { View, Image, StyleSheet } from "react-native";
 
 import Texto from '../../../components/text'
-import logo from '../../../../assets/logo.png'
+
 
 export default function Detalhes({ nome, logoFazenda, nomeFazenda, descricao, preco }){
     return <>
          <Texto style={estilos.nome}>{ nome }</Texto>
             <View style={estilos.fazenda}>
-            <Image source={logo} style={estilos.imageFazenda}/>
+            <Image source={logoFazenda} style={estilos.imageFazenda}/>
             <Texto style={estilos.nomeFazenda}>{ nomeFazenda } </Texto>
 
             </View>
