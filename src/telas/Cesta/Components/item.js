@@ -13,7 +13,6 @@ export default function Itens({ item: {nome, image} }) {
 
 }
 
-
 const estilos = StyleSheet.create({
     
     item: {
